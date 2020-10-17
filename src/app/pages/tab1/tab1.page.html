@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>
+      Engelber's News
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+  <!--<ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>-->
+
+  <app-noticias [noticias]="noticias"></app-noticias>
+
+  <ion-infinite-scroll threshold="150px" (ionInfinite)="loadData($event)" color="success">
+      <ion-infinite-scroll-content color="success"
+        loadingSpinner="circular"
+        loadingText="Cargando data...">
+      </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>
