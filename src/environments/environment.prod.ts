@@ -1,5 +1,6 @@
 export const environment = {
   production: true,
-  apiKey: 'f80a40c4e8b0411fbbac449b1abd9a30',
+   // la apiKey debe ser generada, para hacerlo debe registrarse en Api News,
+  apiKey: 'TUAPIKEY',
   apiUrl: 'http://newsapi.org/v2'
 };

@@ -29,3 +29,11 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+/resources
+/public
+
+.firebase
+.firebaserc
+firebase.json
+manifest.webmanifest
+ngsw-config.json
